@@ -1,5 +1,7 @@
 package com.example.demo.entity;
 
+import jakarta.persitance.*;
+
 public class student {
     private Long id;
     private String name;
@@ -35,6 +37,12 @@ public class student {
     public Student (Long id, String name,String email, float cgpa){
         this.id=id;
         this.name=name;
-        this.
+        this.email=email;
+        this.cgpa=cgpa;
     }
+
+    public Student(){
+
+    }
+
 }
